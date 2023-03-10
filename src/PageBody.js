@@ -24,18 +24,18 @@ function PageBody() {
                     <span>This is awesome!</span>
                 </div>
             </div>
-            <div class="p-6 max-w-md mx-auto bg-slate-100 rounded-xl shadow-xl flex items-center space-x-4">
-                <div class="shrink-0">
-                    <img class="h-10 w-25" src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/Kalvium-Logo.png" alt=""/>
+            <div className="p-6 max-w-md mx-auto bg-slate-100 rounded-xl shadow-xl flex items-center space-x-4">
+                <div className="shrink-0">
+                    <img className="h-10 w-25" src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/Kalvium-Logo.png" alt=""/>
                 </div>
                 <div>
-                    <div class="text-xl font-medium text-black">Kalvium Store</div>
-                    <p class="text-slate-500">You have a new Course!</p>
+                    <div className="text-xl font-medium text-black">Kalvium Store</div>
+                    <p className="text-slate-500">You have a new Course!</p>
                 </div>
             </div>
         </div>
-        <footer class="bg-gray-200 text-center py-4">
-          <div class="container mx-auto items-center">
+        <footer className="bg-gray-200 text-center py-4">
+          <div className="container mx-auto items-center">
               <p>&copy; 2023 KALVIUM. All rights reserved.</p>
           </div>
         </footer>
